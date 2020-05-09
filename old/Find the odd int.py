@@ -11,8 +11,8 @@
 
 
 def find_it(seq):
-    return [el for el in seq if seq.count(el) % 2 != 0]
+    return [el for el in seq if seq.count(el) % 2 != 0][0]
 
 
-seq1 = [1,1,2,-2,5,2,4,4,-1,-2,5]
+seq1 = [20,1,-1,2,-2,3,3,5,5,1,2,4,20,4,-1,-2,5]
 print(find_it(seq1))
